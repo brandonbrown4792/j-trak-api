@@ -1,24 +1,34 @@
-# README
+# Bulletin Backend
+J-Trak is a job tracking tool used to track job applications and contacts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Motivation
+Wanted an interactive web app to log job tracking.
 
-* Ruby version
 
-* System dependencies
+## Features
+* Add / update / delete jobs
+* Add / update / delete contacts
 
-* Configuration
 
-* Database creation
+## Frameworks / Technologies Used
+* [React JS](https://reactjs.org/)
+* [Ruby on Rails as API](https://rubyonrails.org/)
+* [Postgresql](https://www.postgresql.org/)
+* HTML / CSS
 
-* Database initialization
 
-* How to run the test suite
+## Prerequisites
+The backend install steps require the following on your system
+* [Rails](https://rubyonrails.org/)
+* [Postgresql](https://www.postgresql.org/)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Install Instructions
+1. Clone this repository to you local machine.
+2. Once cloned, navigate to the base folder of this repository.
+3. Run bundle install in the terminal to install required gems.
+4. Run rails db:setup to set up the database.
+5. Run rails s to start the rails server.
 
-* ...
+Note: The frontend software must be downloaded and running as well to see a user interface. See the frontend project [here](https://github.com/hoobie4792/j-trak).
